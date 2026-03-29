@@ -1,9 +1,13 @@
 export default function Home() {
   return (
-    <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
+    <main style={{ padding: "40px" }}>
       <h1>AIxDiagnose</h1>
-      <p>My new website is live.</p>
-      <p>I will move my Lovable content here step by step.</p>
+
+      <ul>
+        <li><a href="/adhd-test">ADHD Test</a></li>
+        <li><a href="/tools">Tools</a></li>
+        <li><a href="/resources">Resources</a></li>
+      </ul>
     </main>
   );
 }
